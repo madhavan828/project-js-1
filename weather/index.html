@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather">
+    <h1>Weather</h1>
+    <div class="input-container">
+        <input type="text" class="input" placeholder="Enter the City Name">
+        <img class="search js-search-btn" src="image/search.png" alt="search" >
+    </div>
+    <div class="container js-container">
+    <div class="box">
+        <img class="weather-img"  alt="Clear">
+        <p class="cel"></p>
+        <p class="city js-city"></p>
+        <p class="country js-country"></p>
+      <div class="cod">
+        <div class="latitude">
+            <p>latitude</p>
+            <p class="lat-count"></p>
+        </div>
+        <div class="longitude">
+            <p>longitude</p>
+            <p class="lon-count"></p>
+        </div>
+      </div>
+    </div>
+    <div class="weather-box">
+    <div class="longitude">
+        <img class="humanity-img" src="image/humidity.svg" alt="">
+        <p class="humidity"></p>
+        <p>Humidity</p>
+    </div>
+    <div class="wind-sec">
+        <img class="wind-speed-img" src='image/wind.png' alt="">
+        <p class="wind"></p>
+        <p>Wind speed</p>
+    </div>
+    </div>
+</div>
+<p class="error"></p>
+</div>
+    <script src="main.js"></script>
+</body>
+</html>
